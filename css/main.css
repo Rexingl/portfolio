@@ -1,12 +1,14 @@
 my main.css
 body {
+/*
     text-align: center;
     font-size: 19px;
     font-family: Arial, Helvetica, san-serif;
     font-size: 49px;
     margin: 1px;
-    background-color: grey;
-    height: 10%;
+*/
+    background-color: lightgray;
+/*    height: 10%;*/
 }
 
 /* Style the navigation menu */
@@ -56,8 +58,8 @@ h3,
 h4,
 h5,
 h6 {
-    font:style;
-    font-size: 24pt;
+    font-family:monospace;
+    font-size: 30pt;
     color: darkorange;
 }
 
@@ -66,15 +68,18 @@ li {
 }
 
 .pic {
-    position: static;
+    position: relative;
     width: 40%;
-    margin: 1rem;    
-    left: 90%;
-    padding: 10px;
+    margin: auto;    
+    left: 30%;    
+    padding: 0px;
     border-width: 10px;
     border-radius: 0;
     border-color: skyblue;
-    border-style: inset;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 }
 
@@ -83,14 +88,15 @@ li {
     width: 50%;
     margin: 1rem;
     padding: 2rem;
-    color: aqua;
+    left: 22.5%;
+    color: orange;
     font-size: .9rem;
     font-weight: bold;
     text-align: left;
     border-width: 10px;
-    border-radius: 0;
+    border-radius: 4px;
     border-color: orange;
-    border-style: inset;
+    border-style: double;
     background-color: #414141;
 }
 
@@ -123,4 +129,10 @@ li {
 iframe {
     height: 660px;
     width: 650px;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
